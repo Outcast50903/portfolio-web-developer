@@ -1,0 +1,32 @@
+.footer{
+    background-color: $black;
+    height: auto;
+    border-top: 3px solid $red;
+    color: $white;
+    padding-top: 60px;
+    padding-bottom: 5px;
+
+    .center {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .icon{
+        background: $icon-black;
+        font-size: 10px;
+        height: 60px;
+        width: 60px;
+        margin: 0 15px;
+        text-align: center;
+        color: $white;
+        text-decoration: none;
+    }
+
+    .author{
+        margin-top: 50px;
+        color: $gray;
+    }
+}

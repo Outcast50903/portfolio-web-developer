@@ -1,9 +1,11 @@
 import React from 'react';
+//import Main component
+import Main from './components/MainComponent';
 
 function App() {
   return (
     <div>
-      <h4>App Component</h4>
+      <Main />
     </div>
   );
 }
