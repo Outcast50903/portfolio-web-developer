@@ -19,22 +19,48 @@ class Home extends Component {
                 <Jumbotron>
                     <Container>
                         <Row>
-                            <Col xs="12" sm="12" md="6">
-                                <img src="images/codeThinking.svg" alt="Imagen" />
+                            <Col md="12" lg="6">
+                                <motion.div  
+                                    initial={{
+                                        y: -250,
+                                        opacity: 0
+                                    }} 
+                                    animate={{
+                                        y: 0,
+                                        opacity: 1
+                                    }}
+                                    transition={{
+                                        delay: 0.25
+                                    }}
+                                >
+                                    <img src="images/codeThinking.svg" alt="Logotipo" />
+                                </motion.div>
                             </Col>
-                            <Col xs="12" sm="12" md="6">
+                            <Col md="12" lg="6">
                                 <div>
-                                    <p>Hola, Mi nombre es Diego Garcia me especielizo en:</p>
+                                    <motion.h1 
+                                        initial={{
+                                            opacity: 0
+                                        }}
+                                        animate={{ 
+                                            fontSize: 45,
+                                            opacity: 1 
+                                        }}
+                                        transition={{
+                                            delay: 0.02
+                                        }}
+                                    >
+                                        Hola, Mi nombre es Diego Garcia me especielizo en:
+                                    </motion.h1>
                                     <Typical
                                         steps={[
                                             'Desarrollo Front-End', 1000,
                                             'Desarrollo Back-End', 1000,  
-                                            'Desarrollo en Wordpress', 1500,
-                                            'Concimientos de Git', 1000
+                                            'Desarrollo en Wordpress', 1500
                                         ]}
                                         loop={Infinity}
                                     >
-                                        <p className="test"></p>
+                                        <p className="styles_typicalWrapper__1_Uvh"></p>
                                     </Typical>
                                 </div>
                             </Col>

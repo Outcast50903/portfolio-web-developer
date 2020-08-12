@@ -26,6 +26,8 @@ class NavigationBar extends Component {
                 <Navbar light className="navbar center" expand="md">
                     <div className="container">
                         <NavbarBrand className="mr-auto">
+                            <img src="images/logo.svg" alt="Logo"/>
+                        </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
@@ -51,7 +53,6 @@ class NavigationBar extends Component {
                                 </NavItem>
                             </Nav>
                         </Collapse>
-                        </NavbarBrand>
                     </div>
                 </Navbar>
                 <div class="bar one"></div> 
