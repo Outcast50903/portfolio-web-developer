@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 //import reactstrap components
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Nav } from 'reactstrap';
+import { Navbar, NavbarToggler, Collapse, NavItem, Nav, NavbarBrand } from 'reactstrap';
+//import navigation component
+import { NavLink } from 'react-router-dom'
 
 class NavigationBar extends Component {
 
@@ -20,22 +22,40 @@ class NavigationBar extends Component {
     
     render(){
         return(
-            <Navbar dark className="navbar">
-                <div className="container">
-                    <NavbarToggler onClick={this.toggleNav} />
-                    <NavbarBrand className="logo mr-auto" href="/">
-                        <img src="" 
-                            alt="Portafolio"
-                        />
-                    </NavbarBrand>
-                    <Collapse isOpen={this.state.isNavOpen} navbar>
-                        <Nav navbar>
-                            <NavItem>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
-                </div>
-            </Navbar>
+            <div>
+                <Navbar light className="navbar center" expand="md">
+                    <div className="container">
+                        <NavbarBrand className="mr-auto">
+                        <NavbarToggler onClick={this.toggleNav} />
+                        <Collapse isOpen={this.state.isNavOpen} navbar>
+                            <Nav navbar>
+                                <NavItem>
+                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                        Inicio
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                        Habilidades
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                        Proyectos
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                        Contacto
+                                    </NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
+                        </NavbarBrand>
+                    </div>
+                </Navbar>
+                <div class="bar one"></div> 
+            </div>
         );
     };
 }

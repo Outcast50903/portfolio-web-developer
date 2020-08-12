@@ -1,18 +1,10 @@
 .footer{
     background-color: $black;
     height: auto;
-    border-top: 3px solid $red;
     color: $white;
     padding-top: 60px;
     padding-bottom: 5px;
-
-    .center {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-direction: row;
-    }
+    text-decoration: none;
 
     .icon{
         background: $icon-black;
@@ -23,6 +15,14 @@
         text-align: center;
         color: $white;
         text-decoration: none;
+
+        &:hover{
+            background-color: $icon-black-hover;
+        }
+
+        i{
+            text-decoration: none;
+        }
     }
 
     .author{

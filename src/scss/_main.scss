@@ -1,3 +1,23 @@
+@import './fonts';
 @import './colors';
+@import './gradient';
 @import '../components/NavbarComponent/_navbar';
 @import '../components/FooterComponent/footer';
+@import '../components/HomeComponent/home';
+
+.center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bar {
+    height: 8px;
+    width: 100%;
+}
+
+.one {
+    @include gradient(to right, $list1);
+}

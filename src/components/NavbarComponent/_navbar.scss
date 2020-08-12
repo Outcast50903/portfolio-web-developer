@@ -1,17 +1,14 @@
 .navbar {
-    background-color: $black;
-    border-bottom: 3px solid $red;
+    background-color: $white;
     height: 65px;
 
-    .logo{
+    .nav-link{
+        color: $black !important;
+    }
+    .navbar-hover {
 
-        .navbar-toggler {
-            padding-top: 0px;
-        }
-
-        img{
-            height: 60px; 
-            width: 60px;
+        &:hover {
+            color: $orange !important;
         }
     }
 }
