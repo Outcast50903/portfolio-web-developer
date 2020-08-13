@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 //import reactstrap components
-import { Navbar, NavbarToggler, Collapse, NavItem, Nav, NavbarBrand } from 'reactstrap';
+import { Navbar, NavbarToggler, Collapse, NavItem, Nav, NavbarBrand, NavLink } from 'reactstrap';
 //import navigation component
-import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion';
 
 class NavigationBar extends Component {
@@ -24,7 +23,7 @@ class NavigationBar extends Component {
     render(){
         return(
             <div>
-                <Navbar light className="navbar center" expand="md">
+                <Navbar light className="navbar center" expand="md" fixed>
                     <motion.div className="container"
                         initial={{
                             x: -200,
@@ -45,17 +44,17 @@ class NavigationBar extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                    <NavLink className="nav-link navbar-hover" href="#home">
                                         Inicio
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                    <NavLink className="nav-link navbar-hover" href="#about">
                                         Tecnologias
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link navbar-hover" to="/home">
+                                    <NavLink className="nav-link navbar-hover" href="#contact">
                                         Contacto
                                     </NavLink>
                                 </NavItem>

@@ -27,7 +27,6 @@ const Author = posed.div({
 function Footer(){
     return(
         <div>
-            <div class="bar one"></div> 
             <div className="footer">
                 <Container>
                     <div className="center">

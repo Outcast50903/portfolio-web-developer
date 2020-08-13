@@ -1,0 +1,39 @@
+.contact{
+    background-color: $black-footer;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: $white;
+
+    h1{
+        font-family: 'Rubik Mono One';
+        text-align: center;
+        font-size: 40px;
+    }
+
+    @media (max-width: 420px) {
+        h1{
+            font-size: 20px;
+        }
+    }
+
+    .p{
+        font-size: 20px;
+    }
+
+    .tools {
+        margin-bottom: 40px;
+        img{
+            margin-right: 10px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .contact-center {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}

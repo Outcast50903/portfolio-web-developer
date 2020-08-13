@@ -5,11 +5,11 @@
 @import '../components/FooterComponent/footer';
 @import '../components/HomeComponent/home';
 @import '../components/AboutComponent/about';
+@import '../components/ContactComponent/contact';
 
 .center {
     align-items: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     flex-direction: row;
 }
@@ -21,8 +21,4 @@
 
 .one {
     @include gradient(to right, $list1);
-}
-
-.two {
-    @include gradient(to right, $list2);
 }

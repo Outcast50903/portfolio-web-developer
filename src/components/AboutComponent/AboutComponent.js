@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import { motion } from 'framer-motion';
 
-
 class About extends Component {
     render() {
         return (
-            <motion.div className="about"
+            <motion.div id="about" className="about"
                 initial={{
                     x: -1000,
                     opacity: 0
@@ -67,7 +66,7 @@ class About extends Component {
                                             delay: 2,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >90%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -84,7 +83,7 @@ class About extends Component {
                                             delay: 2.1,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >80%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -101,7 +100,7 @@ class About extends Component {
                                             delay: 2.2,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >80%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -118,7 +117,7 @@ class About extends Component {
                                             delay: 2.3,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >70%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -135,7 +134,7 @@ class About extends Component {
                                             delay: 2.4,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >70%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -152,7 +151,7 @@ class About extends Component {
                                             delay: 2.5,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >70%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
@@ -169,7 +168,7 @@ class About extends Component {
                                             delay: 2.6,
                                             duration: 1
                                         }}
-                                    ></motion.div>
+                                    >10%</motion.div>
                                 </div>
                             </div>
                         </Col>

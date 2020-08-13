@@ -16,7 +16,7 @@ class Home extends Component {
     render(){
 
         return(
-            <div className="home">
+            <div id="home" className="home">
                 <Jumbotron>
                     <Container>
                         <Row>
@@ -62,8 +62,7 @@ class Home extends Component {
                                     </motion.h1>
                                     <Typical
                                         steps={[
-                                            'Desarrollo Front-End', 1000,
-                                            'Desarrollo Back-End??', 1000,  
+                                            'Desarrollo Front-End', 1000, 
                                             'Desarrollo en Wordpress', 1500
                                         ]}
                                         loop={Infinity}
