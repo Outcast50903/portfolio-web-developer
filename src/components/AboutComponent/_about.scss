@@ -1,0 +1,47 @@
+.about{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    h1{
+        font-size: 'Rublik';
+        font-weight: bold;
+    }
+
+    hr{
+        width: 40%;
+        height: 3px;       
+    }
+
+    .gradient{
+        @include gradient(to right, $list1);
+    }
+
+    .tecnology {
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        .barra{
+            width: 100%;
+            background-color: $gray-bar;
+            height: 20px;
+            border-radius: 10px;
+        }
+        
+        .bar{
+            @include gradient(to right, $list2);
+            height: 20px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        p {
+            margin-bottom: 0;
+            font-family: 'Rubik Mono One';
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

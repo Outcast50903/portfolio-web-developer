@@ -3,6 +3,7 @@ import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import Typical from 'react-typical';
 import { motion } from 'framer-motion';
 
+
 class Home extends Component {
 
     constructor(props){
@@ -30,7 +31,11 @@ class Home extends Component {
                                         opacity: 1
                                     }}
                                     transition={{
-                                        delay: 0.25
+                                        delay: 0.25,
+                                        duration: 1
+                                    }}
+                                    whileHover={{
+                                        scale: 1.05
                                     }}
                                 >
                                     <img src="images/codeThinking.svg" alt="Logotipo" />
@@ -49,13 +54,16 @@ class Home extends Component {
                                         transition={{
                                             delay: 0.02
                                         }}
+                                        whileHover={{
+                                            scale: 1.05
+                                        }}
                                     >
                                         Hola, Mi nombre es Diego Garcia me especielizo en:
                                     </motion.h1>
                                     <Typical
                                         steps={[
                                             'Desarrollo Front-End', 1000,
-                                            'Desarrollo Back-End', 1000,  
+                                            'Desarrollo Back-End??', 1000,  
                                             'Desarrollo en Wordpress', 1500
                                         ]}
                                         loop={Infinity}

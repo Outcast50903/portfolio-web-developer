@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Navbar, NavbarToggler, Collapse, NavItem, Nav, NavbarBrand } from 'reactstrap';
 //import navigation component
 import { NavLink } from 'react-router-dom'
+import { motion } from 'framer-motion';
 
 class NavigationBar extends Component {
 
@@ -24,7 +25,19 @@ class NavigationBar extends Component {
         return(
             <div>
                 <Navbar light className="navbar center" expand="md">
-                    <div className="container">
+                    <motion.div className="container"
+                        initial={{
+                            x: -200,
+                            opacity: 0
+                        }} 
+                        animate={{
+                            x: 0,
+                            opacity: 1 
+                        }}
+                        transition={{
+                            duration: 1
+                        }}
+                    >
                         <NavbarBrand className="mr-auto">
                             <img src="images/logo.svg" alt="Logo"/>
                         </NavbarBrand>
@@ -38,12 +51,7 @@ class NavigationBar extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link navbar-hover" to="/home">
-                                        Habilidades
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link navbar-hover" to="/home">
-                                        Proyectos
+                                        Tecnologias
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -53,7 +61,7 @@ class NavigationBar extends Component {
                                 </NavItem>
                             </Nav>
                         </Collapse>
-                    </div>
+                    </motion.div>
                 </Navbar>
                 <div class="bar one"></div> 
             </div>

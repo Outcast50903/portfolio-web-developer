@@ -1,10 +1,6 @@
 $list1: $blueviolet, $orange, $yellow;
 
-$list2: $blue 0%,$blue 33%,$green 33%,$green 66%, $orange 66%, $orange 100%; 
-
-$list3: $blue 0%,$blue 10%,$green 25%,$green 39%,$orange 79%,$orange 100%; 
-
-$list4: $blue, $green, $orange, $blue, $green, $orange, $blue, $green, $orange; 
+$list2: $blue, $light-blue; 
 
 @mixin gradient( $direction ,$list ) { 
     background: -webkit-linear-gradient($direction, $list);

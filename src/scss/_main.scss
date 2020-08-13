@@ -4,6 +4,7 @@
 @import '../components/NavbarComponent/_navbar';
 @import '../components/FooterComponent/footer';
 @import '../components/HomeComponent/home';
+@import '../components/AboutComponent/about';
 
 .center {
     align-items: center;
@@ -20,4 +21,8 @@
 
 .one {
     @include gradient(to right, $list1);
+}
+
+.two {
+    @include gradient(to right, $list2);
 }
