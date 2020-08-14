@@ -38,7 +38,22 @@ class NavigationBar extends Component {
                         }}
                     >
                         <NavbarBrand className="mr-auto">
-                            <img id="logo" src="images/logo.svg" alt="Logo"/>
+                            <motion.img id="logo" src="images/logo.svg" alt="Logo"
+                                initial={{
+                                    opacity: 0,
+                                    x: -500
+                                }}
+                                animate={{
+                                    opacity: 1,
+                                    rotate: [0, 270, 360, 270, 0],
+                                    x: 0
+                                }}
+                                transition={{
+                                    delay: 2,
+                                    ease: "easeInOut",
+                                    duration: 1
+                                }}
+                            />
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse className="coll" isOpen={this.state.isNavOpen} navbar>

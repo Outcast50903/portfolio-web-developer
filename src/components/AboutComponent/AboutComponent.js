@@ -18,6 +18,9 @@ class About extends Component {
                     delay: 1,
                     duration: 1
                 }}
+                onScroll={{
+                    
+                }}
             >
                 <Container>
                     <motion.h1 className="text-center"
@@ -173,7 +176,20 @@ class About extends Component {
                             </div>
                         </Col>
                         <Col md="12" lg="6">
-                            <img src="images/frontEnd.svg" alt="Front End" />
+                            <motion.img src="images/frontEnd.svg" alt="Front End" 
+                                initial={{
+                                    scale: .1,
+                                    opacity: 0
+                                }}
+                                animate={{
+                                    scale: 1,
+                                    opacity: 1
+                                }}
+                                transition={{
+                                    delay: 2,
+                                    duration: 1
+                                }}
+                            />
                         </Col>
                     </Row>
                 </Container>
