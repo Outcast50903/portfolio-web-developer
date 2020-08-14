@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+    .navbar{
+        padding-left: 0;
+        padding-right: 0;
+        
+        #logo {
+            margin-left: 50%;
+            padding-top: 0px;
+        }
+
+        .navigation {
+            width: 100%;
+            margin-top: 33px;
+        }
+
+        ul{
+            li{
+                margin-top: 20px;
+                padding-top: 3px;
+                padding-left: 20px;
+            }
+        }
+
+        .two{
+            display: block;
+        }
+
+        .navbar-toggler {
+            display: flex;
+            position: fixed;
+            right: 0;
+            top: 2%;
+            margin-right: 4rem;
+        }
+
+        .navbar-brand{
+            .img {
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+        }
+    }
+
+    .img {
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        position: fixed;
+        left: 30px;
+        top: 46px;
+    }
+
+    .home {
+        .jumbotron {
+            padding-top: 30rem;
+        }
+    }
+}

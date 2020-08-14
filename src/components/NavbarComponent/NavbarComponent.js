@@ -22,9 +22,9 @@ class NavigationBar extends Component {
     
     render(){
         return(
-            <div>
+            <div id="navbar" className="fixed-top color">
                 <Navbar light className="navbar center" expand="md" fixed>
-                    <motion.div className="container"
+                    <motion.div className="navigation"
                         initial={{
                             x: -200,
                             opacity: 0
@@ -38,10 +38,10 @@ class NavigationBar extends Component {
                         }}
                     >
                         <NavbarBrand className="mr-auto">
-                            <img src="images/logo.svg" alt="Logo"/>
+                            <img id="logo" src="images/logo.svg" alt="Logo"/>
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar>
+                        <Collapse className="coll" isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
                                     <NavLink className="nav-link navbar-hover" href="#home">
@@ -59,6 +59,7 @@ class NavigationBar extends Component {
                                     </NavLink>
                                 </NavItem>
                             </Nav>
+                            <div class="bar two"></div> 
                         </Collapse>
                     </motion.div>
                 </Navbar>

@@ -33,9 +33,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="47.657505"
-     inkscape:cy="497.49623"
+     inkscape:cy="327.7906"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1853"
@@ -93,44 +93,6 @@
      style="display:inline"
      transform="translate(-5.6376887,-40.146101)">
     <path
-       id="path118"
-       style="fill:#000080;stroke-width:0.197055"
-       inkscape:transform-center-x="-5.1742854"
-       inkscape:transform-center-y="-30.01482"
-       d="m 263.75828,99.560955 -33.77239,0.0465 80.38715,-68.14568 z"
-       sodipodi:nodetypes="cccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:73.6145px;line-height:1.25;font-family:sans-serif;stroke-width:1.15023"
-       x="297.15463"
-       y="188.47183"
-       id="text364"
-       transform="scale(0.81402534,1.228463)"><tspan
-         sodipodi:role="line"
-         id="tspan362"
-         x="297.15463"
-         y="188.47183"
-         style="stroke-width:1.15023">&lt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:73.6145px;line-height:1.25;font-family:sans-serif;stroke-width:1.15023"
-       x="-390.47546"
-       y="171.57938"
-       id="text364-2"
-       transform="scale(-0.81402533,1.228463)"><tspan
-         sodipodi:role="line"
-         id="tspan362-0"
-         x="-390.47546"
-         y="171.57938"
-         style="stroke-width:1.15023">&lt;</tspan></text>
-    <path
-       id="path118-5-9"
-       style="fill:#0000ff;stroke-width:0.197055"
-       inkscape:transform-center-x="5.1742866"
-       inkscape:transform-center-y="30.01482"
-       d="m 276.53959,31.351715 33.77221,-0.0465 -80.387,68.14568 z"
-       sodipodi:nodetypes="cccc" />
-    <path
        id="path118-3"
        style="fill:#ffbb21;fill-opacity:1;stroke-width:0.197055"
        inkscape:transform-center-x="-5.1742854"
@@ -186,10 +148,5 @@
        inkscape:transform-center-y="30.01482"
        d="m 144.25175,40.634521 c -34.60644,-0.1628 -26.0165,-0.32561 -45.924408,-0.48842 L 204.66575,108.73365 Z"
        sodipodi:nodetypes="cccc" />
-    <path
-       id="rect3389-3"
-       style="display:inline;opacity:1;fill:#ff891c;fill-opacity:1;stroke-width:0.421412"
-       d="m 344.02434,-22.103963 v 2.161007 l -106.33747,68.57666 v -2.16102 z"
-       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

@@ -40,9 +40,14 @@ function Footer(){
                                 <i className="fa fa-github fa-3x"></i>
                             </Icons>
                         </a>
+                        <a href="mailto:dgarciavallejos@gmail.com">
+                            <Icons className="icon center">
+                                <i className="fa fa-envelope fa-3x"></i>
+                            </Icons>
+                        </a>
                     </div>
                     <Author className="center">
-                        <p className="author">No se que poner acà</p>
+                        <p className="author"> &copy; Diego.Outcast 2020</p>
                     </Author>
                 </Container>
             </div>
