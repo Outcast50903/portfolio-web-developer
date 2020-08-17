@@ -154,7 +154,7 @@ class About extends Component {
                                             delay: 2.5,
                                             duration: 1
                                         }}
-                                    >70%</motion.div>
+                                    >50%</motion.div>
                                 </div>
                             </div>
                             <div className="tecnology">
