@@ -2,6 +2,7 @@
   "name": "out-porfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://outcast50903.github.io/",
   "dependencies": {
     "@lottiefiles/lottie-player": "lottiefiles/lottie-player",
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,7 +12,6 @@
     "express-favicon": "^2.0.1",
     "font-awesome": "^4.7.0",
     "framer-motion": "^2.3.0",
-    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "path": "^0.12.7",
@@ -30,6 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
