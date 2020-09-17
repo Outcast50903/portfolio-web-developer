@@ -18,9 +18,6 @@ class About extends Component {
                     delay: 1,
                     duration: 1
                 }}
-                onScroll={{
-                    
-                }}
             >
                 <Container>
                     <motion.h1 className="text-center"
@@ -165,13 +162,13 @@ class About extends Component {
                                             width: '0%'
                                         }}
                                         animate={{
-                                            width: '10%'
+                                            width: '40%'
                                         }}
                                         transition={{
                                             delay: 2.6,
                                             duration: 1
                                         }}
-                                    >10%</motion.div>
+                                    >40%</motion.div>
                                 </div>
                             </div>
                         </Col>

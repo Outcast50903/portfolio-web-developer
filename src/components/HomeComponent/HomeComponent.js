@@ -45,10 +45,10 @@ class Home extends Component {
                                 <div>
                                     <motion.h1 
                                         initial={{
+                                            fontSize: 40,
                                             opacity: 0
                                         }}
                                         animate={{ 
-                                            fontSize: 45,
                                             opacity: 1 
                                         }}
                                         transition={{
@@ -57,12 +57,15 @@ class Home extends Component {
                                         whileHover={{
                                             scale: 1.05
                                         }}
+                                        className=""
                                     >
-                                        Hola, Mi nombre es Diego Garcia me especielizo en:
+                                        Hola, Mi nombre es Diego García me especializo en:
                                     </motion.h1>
                                     <Typical
                                         steps={[
-                                            'Desarrollo Front-End', 1000, 
+                                            'Desarrollo Front-End', 1000,
+                                            'Desarrollo ReactJS', 1250,
+                                            'Desarrollo React Native' , 1649, 
                                             'Desarrollo en Wordpress', 1500
                                         ]}
                                         loop={Infinity}

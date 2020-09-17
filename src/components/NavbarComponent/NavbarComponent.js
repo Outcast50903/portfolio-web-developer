@@ -23,7 +23,7 @@ class NavigationBar extends Component {
     render(){
         return(
             <div id="navbar" className="fixed-top color">
-                <Navbar light className="navbar center" expand="md" fixed>
+                <Navbar light className="navbar center" expand="md">
                     <motion.div className="navigation"
                         initial={{
                             x: -200,
@@ -74,11 +74,11 @@ class NavigationBar extends Component {
                                     </NavLink>
                                 </NavItem>
                             </Nav>
-                            <div class="bar two"></div> 
+                            <div className="bar two"></div> 
                         </Collapse>
                     </motion.div>
                 </Navbar>
-                <div class="bar one"></div> 
+                <div className="bar one"></div> 
             </div>
         );
     };
